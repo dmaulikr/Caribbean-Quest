@@ -205,6 +205,7 @@
 				0086A3F319B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.38 PM.png */,
 			);
 			name = ScreenShots;
+			path = "Pirate Adventure";
 			sourceTree = "<group>";
 		};
 		00D1F01119AB9FF400553064 = {
@@ -212,6 +213,7 @@
 			children = (
 				00D1F02319AB9FF400553064 /* Pirate Adventure */,
 				00D1F04219AB9FF400553064 /* Pirate AdventureTests */,
+				0086A3EF19B0EF6A001F8258 /* ScreenShots */,
 				00D1F01C19AB9FF400553064 /* Frameworks */,
 				00D1F01B19AB9FF400553064 /* Products */,
 			);
@@ -247,7 +249,6 @@
 				00D1F03319AB9FF400553064 /* GLViewController.m */,
 				007FDCC019ABAED2004C63E8 /* Model */,
 				00D1F03519AB9FF400553064 /* Images.xcassets */,
-				0086A3EF19B0EF6A001F8258 /* ScreenShots */,
 				00D1F02419AB9FF400553064 /* Supporting Files */,
 			);
 			path = "Pirate Adventure";
