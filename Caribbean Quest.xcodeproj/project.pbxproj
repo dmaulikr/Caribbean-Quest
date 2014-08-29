@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		007FDCC319ABAFB6004C63E8 /* GLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FDCC219ABAFB6004C63E8 /* GLTile.m */; };
 		007FDCCA19ABB350004C63E8 /* GLFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FDCC919ABB350004C63E8 /* GLFactory.m */; };
+		0086A3F419B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.21 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0086A3F019B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.21 PM.png */; };
+		0086A3F519B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.19.42 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0086A3F119B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.19.42 PM.png */; };
+		0086A3F619B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.20.27 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0086A3F219B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.20.27 PM.png */; };
+		0086A3F719B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.38 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0086A3F319B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.38 PM.png */; };
 		00D1F01E19AB9FF400553064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D1F01D19AB9FF400553064 /* Foundation.framework */; };
 		00D1F02019AB9FF400553064 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D1F01F19AB9FF400553064 /* CoreGraphics.framework */; };
 		00D1F02219AB9FF400553064 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D1F02119AB9FF400553064 /* UIKit.framework */; };
@@ -56,6 +60,10 @@
 		007FDCC219ABAFB6004C63E8 /* GLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTile.m; sourceTree = "<group>"; };
 		007FDCC819ABB350004C63E8 /* GLFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLFactory.h; path = ../GLFactory.h; sourceTree = "<group>"; };
 		007FDCC919ABB350004C63E8 /* GLFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLFactory.m; path = ../GLFactory.m; sourceTree = "<group>"; };
+		0086A3F019B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.21 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-29 at 1.21.21 PM.png"; sourceTree = "<group>"; };
+		0086A3F119B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.19.42 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-29 at 1.19.42 PM.png"; sourceTree = "<group>"; };
+		0086A3F219B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.20.27 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-29 at 1.20.27 PM.png"; sourceTree = "<group>"; };
+		0086A3F319B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.38 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-29 at 1.21.38 PM.png"; sourceTree = "<group>"; };
 		00D1F01A19AB9FF400553064 /* Caribbean Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caribbean Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D1F01D19AB9FF400553064 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00D1F01F19AB9FF400553064 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -188,6 +196,17 @@
 			name = Tile;
 			sourceTree = "<group>";
 		};
+		0086A3EF19B0EF6A001F8258 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				0086A3F019B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.21 PM.png */,
+				0086A3F119B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.19.42 PM.png */,
+				0086A3F219B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.20.27 PM.png */,
+				0086A3F319B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.38 PM.png */,
+			);
+			name = ScreenShots;
+			sourceTree = "<group>";
+		};
 		00D1F01119AB9FF400553064 = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +247,7 @@
 				00D1F03319AB9FF400553064 /* GLViewController.m */,
 				007FDCC019ABAED2004C63E8 /* Model */,
 				00D1F03519AB9FF400553064 /* Images.xcassets */,
+				0086A3EF19B0EF6A001F8258 /* ScreenShots */,
 				00D1F02419AB9FF400553064 /* Supporting Files */,
 			);
 			path = "Pirate Adventure";
@@ -361,6 +381,8 @@
 			files = (
 				00FAE6E419ABD41100D2B746 /* Plank.jpg in Resources */,
 				00FAE6E219ABD2EB00D2B746 /* Dock.jpg in Resources */,
+				0086A3F419B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.21 PM.png in Resources */,
+				0086A3F619B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.20.27 PM.png in Resources */,
 				00FAE6E019ABD22800D2B746 /* PirateBlacksmith.jpg in Resources */,
 				00FAE6EE19ABD7D900D2B746 /* guns.jpg in Resources */,
 				00FAE6EC19ABD74F00D2B746 /* Parrot.jpg in Resources */,
@@ -368,6 +390,8 @@
 				00FAE6F219ABD9B700D2B746 /* kraken.jpg in Resources */,
 				00D1F03619AB9FF400553064 /* Images.xcassets in Resources */,
 				00FAE6F819ABDC6000D2B746 /* deep.jpg in Resources */,
+				0086A3F519B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.19.42 PM.png in Resources */,
+				0086A3F719B0EF8A001F8258 /* Screen Shot 2014-08-29 at 1.21.38 PM.png in Resources */,
 				00D1F02819AB9FF400553064 /* InfoPlist.strings in Resources */,
 				00FAE6F419ABDAB600D2B746 /* shipb.jpg in Resources */,
 				00D1F03119AB9FF400553064 /* Main.storyboard in Resources */,
