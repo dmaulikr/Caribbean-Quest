@@ -13,3 +13,9 @@ Screenshots -
 ![alt tag](https://github.com/millingab/Caribbean-Quest/blob/master/Pirate%20Adventure/Screen%20Shot%202014-08-29%20at%201.20.27%20PM.png)
 ![alt tag](https://github.com/millingab/Caribbean-Quest/blob/master/Pirate%20Adventure/Screen%20Shot%202014-08-29%20at%201.21.21%20PM.png)
 ![alt tag](https://github.com/millingab/Caribbean-Quest/blob/master/Pirate%20Adventure/Screen%20Shot%202014-08-29%20at%201.21.38%20PM.png)
+
+
+Glitch 1
+
+Problem: While under invasion, if player chosed to keep attacking them for very long time, the evil pirate died even if he wasn't in the fight scene on other side.    
+Status:Solved
