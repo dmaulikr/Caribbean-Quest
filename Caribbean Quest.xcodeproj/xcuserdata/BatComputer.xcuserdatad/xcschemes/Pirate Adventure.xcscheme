@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00D1F01919AB9FF400553064"
-               BuildableName = "Pirate Adventure.app"
-               BlueprintName = "Pirate Adventure"
-               ReferencedContainer = "container:Pirate Adventure.xcodeproj">
+               BuildableName = "Caribbean Quest.app"
+               BlueprintName = "Caribbean Quest"
+               ReferencedContainer = "container:Caribbean Quest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00D1F03A19AB9FF400553064"
-               BuildableName = "Pirate AdventureTests.xctest"
-               BlueprintName = "Pirate AdventureTests"
-               ReferencedContainer = "container:Pirate Adventure.xcodeproj">
+               BuildableName = "Caribbean QuestTests.xctest"
+               BlueprintName = "Caribbean QuestTests"
+               ReferencedContainer = "container:Caribbean Quest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00D1F01919AB9FF400553064"
-            BuildableName = "Pirate Adventure.app"
-            BlueprintName = "Pirate Adventure"
-            ReferencedContainer = "container:Pirate Adventure.xcodeproj">
+            BuildableName = "Caribbean Quest.app"
+            BlueprintName = "Caribbean Quest"
+            ReferencedContainer = "container:Caribbean Quest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00D1F01919AB9FF400553064"
-            BuildableName = "Pirate Adventure.app"
-            BlueprintName = "Pirate Adventure"
-            ReferencedContainer = "container:Pirate Adventure.xcodeproj">
+            BuildableName = "Caribbean Quest.app"
+            BlueprintName = "Caribbean Quest"
+            ReferencedContainer = "container:Caribbean Quest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00D1F01919AB9FF400553064"
-            BuildableName = "Pirate Adventure.app"
-            BlueprintName = "Pirate Adventure"
-            ReferencedContainer = "container:Pirate Adventure.xcodeproj">
+            BuildableName = "Caribbean Quest.app"
+            BlueprintName = "Caribbean Quest"
+            ReferencedContainer = "container:Caribbean Quest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

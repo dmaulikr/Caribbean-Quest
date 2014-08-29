@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007FDCC319ABAFB6004C63E8 /* GLTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FDCC219ABAFB6004C63E8 /* GLTile.m */; };
+		007FDCCA19ABB350004C63E8 /* GLFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 007FDCC919ABB350004C63E8 /* GLFactory.m */; };
 		00D1F01E19AB9FF400553064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D1F01D19AB9FF400553064 /* Foundation.framework */; };
 		00D1F02019AB9FF400553064 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D1F01F19AB9FF400553064 /* CoreGraphics.framework */; };
 		00D1F02219AB9FF400553064 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D1F02119AB9FF400553064 /* UIKit.framework */; };
@@ -21,6 +23,22 @@
 		00D1F03F19AB9FF400553064 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D1F02119AB9FF400553064 /* UIKit.framework */; };
 		00D1F04719AB9FF400553064 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00D1F04519AB9FF400553064 /* InfoPlist.strings */; };
 		00D1F04919AB9FF400553064 /* Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D1F04819AB9FF400553064 /* Pirate_AdventureTests.m */; };
+		00FAE6DE19ABD0FE00D2B746 /* WorldMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6DD19ABD0FE00D2B746 /* WorldMap.jpg */; };
+		00FAE6E019ABD22800D2B746 /* PirateBlacksmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6DF19ABD22800D2B746 /* PirateBlacksmith.jpg */; };
+		00FAE6E219ABD2EB00D2B746 /* Dock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6E119ABD2EB00D2B746 /* Dock.jpg */; };
+		00FAE6E419ABD41100D2B746 /* Plank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6E319ABD41100D2B746 /* Plank.jpg */; };
+		00FAE6EC19ABD74F00D2B746 /* Parrot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6EB19ABD74F00D2B746 /* Parrot.jpg */; };
+		00FAE6EE19ABD7D900D2B746 /* guns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6ED19ABD7D900D2B746 /* guns.jpg */; };
+		00FAE6F019ABD91000D2B746 /* Gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6EF19ABD91000D2B746 /* Gold.jpg */; };
+		00FAE6F219ABD9B700D2B746 /* kraken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6F119ABD9B700D2B746 /* kraken.jpg */; };
+		00FAE6F419ABDAB600D2B746 /* shipb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6F319ABDAB600D2B746 /* shipb.jpg */; };
+		00FAE6F619ABDB8500D2B746 /* PirateBoss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6F519ABDB8500D2B746 /* PirateBoss.jpg */; };
+		00FAE6F819ABDC6000D2B746 /* deep.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6F719ABDC6000D2B746 /* deep.jpg */; };
+		00FAE6FA19ABDD5F00D2B746 /* attack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FAE6F919ABDD5F00D2B746 /* attack.jpg */; };
+		00FAE6FD19ABE5D000D2B746 /* GLWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FAE6FC19ABE5D000D2B746 /* GLWeapon.m */; };
+		00FAE70019ABE63000D2B746 /* GLArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FAE6FF19ABE63000D2B746 /* GLArmor.m */; };
+		00FAE70319ABE6F700D2B746 /* GLCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FAE70219ABE6F700D2B746 /* GLCharacter.m */; };
+		00FAE70619ABFB2700D2B746 /* GLBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FAE70519ABFB2700D2B746 /* GLBoss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +52,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D1F01A19AB9FF400553064 /* Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		007FDCC119ABAFB6004C63E8 /* GLTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTile.h; sourceTree = "<group>"; };
+		007FDCC219ABAFB6004C63E8 /* GLTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTile.m; sourceTree = "<group>"; };
+		007FDCC819ABB350004C63E8 /* GLFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLFactory.h; path = ../GLFactory.h; sourceTree = "<group>"; };
+		007FDCC919ABB350004C63E8 /* GLFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLFactory.m; path = ../GLFactory.m; sourceTree = "<group>"; };
+		00D1F01A19AB9FF400553064 /* Caribbean Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caribbean Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D1F01D19AB9FF400553064 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00D1F01F19AB9FF400553064 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		00D1F02119AB9FF400553064 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		00D1F02519AB9FF400553064 /* Pirate Adventure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate Adventure-Info.plist"; sourceTree = "<group>"; };
+		00D1F02519AB9FF400553064 /* Caribbean Quest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caribbean Quest-Info.plist"; sourceTree = "<group>"; };
 		00D1F02719AB9FF400553064 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00D1F02919AB9FF400553064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00D1F02B19AB9FF400553064 /* Pirate Adventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pirate Adventure-Prefix.pch"; sourceTree = "<group>"; };
+		00D1F02B19AB9FF400553064 /* Caribbean Quest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caribbean Quest-Prefix.pch"; sourceTree = "<group>"; };
 		00D1F02C19AB9FF400553064 /* GLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLAppDelegate.h; sourceTree = "<group>"; };
 		00D1F02D19AB9FF400553064 /* GLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLAppDelegate.m; sourceTree = "<group>"; };
 		00D1F03019AB9FF400553064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00D1F03219AB9FF400553064 /* GLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
 		00D1F03319AB9FF400553064 /* GLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
 		00D1F03519AB9FF400553064 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		00D1F03B19AB9FF400553064 /* Pirate AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate AdventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D1F03B19AB9FF400553064 /* Caribbean QuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caribbean QuestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D1F03C19AB9FF400553064 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		00D1F04419AB9FF400553064 /* Pirate AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate AdventureTests-Info.plist"; sourceTree = "<group>"; };
+		00D1F04419AB9FF400553064 /* Caribbean QuestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Caribbean QuestTests-Info.plist"; sourceTree = "<group>"; };
 		00D1F04619AB9FF400553064 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00D1F04819AB9FF400553064 /* Pirate_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AdventureTests.m; sourceTree = "<group>"; };
+		00FAE6DD19ABD0FE00D2B746 /* WorldMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WorldMap.jpg; sourceTree = "<group>"; };
+		00FAE6DF19ABD22800D2B746 /* PirateBlacksmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBlacksmith.jpg; sourceTree = "<group>"; };
+		00FAE6E119ABD2EB00D2B746 /* Dock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dock.jpg; sourceTree = "<group>"; };
+		00FAE6E319ABD41100D2B746 /* Plank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Plank.jpg; sourceTree = "<group>"; };
+		00FAE6EB19ABD74F00D2B746 /* Parrot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Parrot.jpg; sourceTree = "<group>"; };
+		00FAE6ED19ABD7D900D2B746 /* guns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guns.jpg; sourceTree = "<group>"; };
+		00FAE6EF19ABD91000D2B746 /* Gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gold.jpg; sourceTree = "<group>"; };
+		00FAE6F119ABD9B700D2B746 /* kraken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kraken.jpg; sourceTree = "<group>"; };
+		00FAE6F319ABDAB600D2B746 /* shipb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shipb.jpg; sourceTree = "<group>"; };
+		00FAE6F519ABDB8500D2B746 /* PirateBoss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBoss.jpg; sourceTree = "<group>"; };
+		00FAE6F719ABDC6000D2B746 /* deep.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deep.jpg; sourceTree = "<group>"; };
+		00FAE6F919ABDD5F00D2B746 /* attack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = attack.jpg; sourceTree = "<group>"; };
+		00FAE6FB19ABE5D000D2B746 /* GLWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWeapon.h; sourceTree = "<group>"; };
+		00FAE6FC19ABE5D000D2B746 /* GLWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWeapon.m; sourceTree = "<group>"; };
+		00FAE6FE19ABE63000D2B746 /* GLArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLArmor.h; sourceTree = "<group>"; };
+		00FAE6FF19ABE63000D2B746 /* GLArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLArmor.m; sourceTree = "<group>"; };
+		00FAE70119ABE6F700D2B746 /* GLCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCharacter.h; sourceTree = "<group>"; };
+		00FAE70219ABE6F700D2B746 /* GLCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCharacter.m; sourceTree = "<group>"; };
+		00FAE70419ABFB2700D2B746 /* GLBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBoss.h; sourceTree = "<group>"; };
+		00FAE70519ABFB2700D2B746 /* GLBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLBoss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +121,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		007FDCC019ABAED2004C63E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				007FDCC719ABB2D6004C63E8 /* Factory */,
+				0086A3EE19B0EB89001F8258 /* Tile */,
+				0086A3E919B0EB49001F8258 /* Character */,
+				0086A3ED19B0EB81001F8258 /* Armor */,
+				0086A3EC19B0EB7C001F8258 /* Weapon */,
+				0086A3EB19B0EB77001F8258 /* Boss */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		007FDCC719ABB2D6004C63E8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				007FDCC819ABB350004C63E8 /* GLFactory.h */,
+				007FDCC919ABB350004C63E8 /* GLFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		0086A3E919B0EB49001F8258 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				00FAE70119ABE6F700D2B746 /* GLCharacter.h */,
+				00FAE70219ABE6F700D2B746 /* GLCharacter.m */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
+		0086A3EB19B0EB77001F8258 /* Boss */ = {
+			isa = PBXGroup;
+			children = (
+				00FAE70419ABFB2700D2B746 /* GLBoss.h */,
+				00FAE70519ABFB2700D2B746 /* GLBoss.m */,
+			);
+			name = Boss;
+			sourceTree = "<group>";
+		};
+		0086A3EC19B0EB7C001F8258 /* Weapon */ = {
+			isa = PBXGroup;
+			children = (
+				00FAE6FB19ABE5D000D2B746 /* GLWeapon.h */,
+				00FAE6FC19ABE5D000D2B746 /* GLWeapon.m */,
+			);
+			name = Weapon;
+			sourceTree = "<group>";
+		};
+		0086A3ED19B0EB81001F8258 /* Armor */ = {
+			isa = PBXGroup;
+			children = (
+				00FAE6FE19ABE63000D2B746 /* GLArmor.h */,
+				00FAE6FF19ABE63000D2B746 /* GLArmor.m */,
+			);
+			name = Armor;
+			sourceTree = "<group>";
+		};
+		0086A3EE19B0EB89001F8258 /* Tile */ = {
+			isa = PBXGroup;
+			children = (
+				007FDCC119ABAFB6004C63E8 /* GLTile.h */,
+				007FDCC219ABAFB6004C63E8 /* GLTile.m */,
+			);
+			name = Tile;
+			sourceTree = "<group>";
+		};
 		00D1F01119AB9FF400553064 = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +201,8 @@
 		00D1F01B19AB9FF400553064 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00D1F01A19AB9FF400553064 /* Pirate Adventure.app */,
-				00D1F03B19AB9FF400553064 /* Pirate AdventureTests.xctest */,
+				00D1F01A19AB9FF400553064 /* Caribbean Quest.app */,
+				00D1F03B19AB9FF400553064 /* Caribbean QuestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +226,7 @@
 				00D1F02F19AB9FF400553064 /* Main.storyboard */,
 				00D1F03219AB9FF400553064 /* GLViewController.h */,
 				00D1F03319AB9FF400553064 /* GLViewController.m */,
+				007FDCC019ABAED2004C63E8 /* Model */,
 				00D1F03519AB9FF400553064 /* Images.xcassets */,
 				00D1F02419AB9FF400553064 /* Supporting Files */,
 			);
@@ -126,10 +236,11 @@
 		00D1F02419AB9FF400553064 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00D1F02519AB9FF400553064 /* Pirate Adventure-Info.plist */,
+				00FAE6D619ABCAAE00D2B746 /* Background Images */,
+				00D1F02519AB9FF400553064 /* Caribbean Quest-Info.plist */,
 				00D1F02619AB9FF400553064 /* InfoPlist.strings */,
 				00D1F02919AB9FF400553064 /* main.m */,
-				00D1F02B19AB9FF400553064 /* Pirate Adventure-Prefix.pch */,
+				00D1F02B19AB9FF400553064 /* Caribbean Quest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,18 +257,37 @@
 		00D1F04319AB9FF400553064 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				00D1F04419AB9FF400553064 /* Pirate AdventureTests-Info.plist */,
+				00D1F04419AB9FF400553064 /* Caribbean QuestTests-Info.plist */,
 				00D1F04519AB9FF400553064 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		00FAE6D619ABCAAE00D2B746 /* Background Images */ = {
+			isa = PBXGroup;
+			children = (
+				00FAE6F919ABDD5F00D2B746 /* attack.jpg */,
+				00FAE6F719ABDC6000D2B746 /* deep.jpg */,
+				00FAE6F519ABDB8500D2B746 /* PirateBoss.jpg */,
+				00FAE6F319ABDAB600D2B746 /* shipb.jpg */,
+				00FAE6F119ABD9B700D2B746 /* kraken.jpg */,
+				00FAE6EF19ABD91000D2B746 /* Gold.jpg */,
+				00FAE6ED19ABD7D900D2B746 /* guns.jpg */,
+				00FAE6EB19ABD74F00D2B746 /* Parrot.jpg */,
+				00FAE6E319ABD41100D2B746 /* Plank.jpg */,
+				00FAE6E119ABD2EB00D2B746 /* Dock.jpg */,
+				00FAE6DF19ABD22800D2B746 /* PirateBlacksmith.jpg */,
+				00FAE6DD19ABD0FE00D2B746 /* WorldMap.jpg */,
+			);
+			name = "Background Images";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00D1F01919AB9FF400553064 /* Pirate Adventure */ = {
+		00D1F01919AB9FF400553064 /* Caribbean Quest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00D1F04C19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Pirate Adventure" */;
+			buildConfigurationList = 00D1F04C19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Caribbean Quest" */;
 			buildPhases = (
 				00D1F01619AB9FF400553064 /* Sources */,
 				00D1F01719AB9FF400553064 /* Frameworks */,
@@ -167,14 +297,14 @@
 			);
 			dependencies = (
 			);
-			name = "Pirate Adventure";
+			name = "Caribbean Quest";
 			productName = "Pirate Adventure";
-			productReference = 00D1F01A19AB9FF400553064 /* Pirate Adventure.app */;
+			productReference = 00D1F01A19AB9FF400553064 /* Caribbean Quest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00D1F03A19AB9FF400553064 /* Pirate AdventureTests */ = {
+		00D1F03A19AB9FF400553064 /* Caribbean QuestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00D1F04F19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */;
+			buildConfigurationList = 00D1F04F19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Caribbean QuestTests" */;
 			buildPhases = (
 				00D1F03719AB9FF400553064 /* Sources */,
 				00D1F03819AB9FF400553064 /* Frameworks */,
@@ -185,9 +315,9 @@
 			dependencies = (
 				00D1F04119AB9FF400553064 /* PBXTargetDependency */,
 			);
-			name = "Pirate AdventureTests";
+			name = "Caribbean QuestTests";
 			productName = "Pirate AdventureTests";
-			productReference = 00D1F03B19AB9FF400553064 /* Pirate AdventureTests.xctest */;
+			productReference = 00D1F03B19AB9FF400553064 /* Caribbean QuestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +335,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00D1F01519AB9FF400553064 /* Build configuration list for PBXProject "Pirate Adventure" */;
+			buildConfigurationList = 00D1F01519AB9FF400553064 /* Build configuration list for PBXProject "Caribbean Quest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +348,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00D1F01919AB9FF400553064 /* Pirate Adventure */,
-				00D1F03A19AB9FF400553064 /* Pirate AdventureTests */,
+				00D1F01919AB9FF400553064 /* Caribbean Quest */,
+				00D1F03A19AB9FF400553064 /* Caribbean QuestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +359,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FAE6E419ABD41100D2B746 /* Plank.jpg in Resources */,
+				00FAE6E219ABD2EB00D2B746 /* Dock.jpg in Resources */,
+				00FAE6E019ABD22800D2B746 /* PirateBlacksmith.jpg in Resources */,
+				00FAE6EE19ABD7D900D2B746 /* guns.jpg in Resources */,
+				00FAE6EC19ABD74F00D2B746 /* Parrot.jpg in Resources */,
+				00FAE6DE19ABD0FE00D2B746 /* WorldMap.jpg in Resources */,
+				00FAE6F219ABD9B700D2B746 /* kraken.jpg in Resources */,
 				00D1F03619AB9FF400553064 /* Images.xcassets in Resources */,
+				00FAE6F819ABDC6000D2B746 /* deep.jpg in Resources */,
 				00D1F02819AB9FF400553064 /* InfoPlist.strings in Resources */,
+				00FAE6F419ABDAB600D2B746 /* shipb.jpg in Resources */,
 				00D1F03119AB9FF400553064 /* Main.storyboard in Resources */,
+				00FAE6F619ABDB8500D2B746 /* PirateBoss.jpg in Resources */,
+				00FAE6F019ABD91000D2B746 /* Gold.jpg in Resources */,
+				00FAE6FA19ABDD5F00D2B746 /* attack.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +392,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FAE70319ABE6F700D2B746 /* GLCharacter.m in Sources */,
 				00D1F02A19AB9FF400553064 /* main.m in Sources */,
+				007FDCC319ABAFB6004C63E8 /* GLTile.m in Sources */,
+				00FAE6FD19ABE5D000D2B746 /* GLWeapon.m in Sources */,
 				00D1F03419AB9FF400553064 /* GLViewController.m in Sources */,
+				007FDCCA19ABB350004C63E8 /* GLFactory.m in Sources */,
 				00D1F02E19AB9FF400553064 /* GLAppDelegate.m in Sources */,
+				00FAE70019ABE63000D2B746 /* GLArmor.m in Sources */,
+				00FAE70619ABFB2700D2B746 /* GLBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +417,7 @@
 /* Begin PBXTargetDependency section */
 		00D1F04119AB9FF400553064 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00D1F01919AB9FF400553064 /* Pirate Adventure */;
+			target = 00D1F01919AB9FF400553064 /* Caribbean Quest */;
 			targetProxy = 00D1F04019AB9FF400553064 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +526,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pirate Adventure/Pirate Adventure-Prefix.pch";
-				INFOPLIST_FILE = "Pirate Adventure/Pirate Adventure-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pirate Adventure/Caribbean Quest-Prefix.pch";
+				INFOPLIST_FILE = "Pirate Adventure/Caribbean Quest-Info.plist";
+				PRODUCT_NAME = "Caribbean Quest";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +539,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pirate Adventure/Pirate Adventure-Prefix.pch";
-				INFOPLIST_FILE = "Pirate Adventure/Pirate Adventure-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pirate Adventure/Caribbean Quest-Prefix.pch";
+				INFOPLIST_FILE = "Pirate Adventure/Caribbean Quest-Info.plist";
+				PRODUCT_NAME = "Caribbean Quest";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +561,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Pirate AdventureTests/Pirate AdventureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Pirate AdventureTests/Caribbean QuestTests-Info.plist";
+				PRODUCT_NAME = "Caribbean QuestTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +579,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pirate Adventure/Pirate Adventure-Prefix.pch";
-				INFOPLIST_FILE = "Pirate AdventureTests/Pirate AdventureTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Pirate AdventureTests/Caribbean QuestTests-Info.plist";
+				PRODUCT_NAME = "Caribbean QuestTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00D1F01519AB9FF400553064 /* Build configuration list for PBXProject "Pirate Adventure" */ = {
+		00D1F01519AB9FF400553064 /* Build configuration list for PBXProject "Caribbean Quest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00D1F04A19AB9FF400553064 /* Debug */,
@@ -450,21 +598,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00D1F04C19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Pirate Adventure" */ = {
+		00D1F04C19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Caribbean Quest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00D1F04D19AB9FF400553064 /* Debug */,
 				00D1F04E19AB9FF400553064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		00D1F04F19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
+		00D1F04F19AB9FF400553064 /* Build configuration list for PBXNativeTarget "Caribbean QuestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00D1F05019AB9FF400553064 /* Debug */,
 				00D1F05119AB9FF400553064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
